@@ -6,9 +6,13 @@ using namespace std;
 int main(){
 	int num,multiplos;
 	cout<<"ingrese el numero: "; cin>>num;
-	for (int i=1;i<=num;i++){
+	if (num<0){
+		cout<<"INGRESASTE UN NUMERO NEGATIVO";
+	}else {
+		for (int i=1;i<=num;i++){
 		multiplos=i*7;
 		cout<<multiplos<<endl;
+	}
 	}
 	
 	return 0;
