@@ -1,5 +1,3 @@
-/*Realizar un algoritmo que sume los N primeros números naturales usando bucles.*/
-
 #include <iostream>
 using namespace std;
 
@@ -15,8 +13,8 @@ int main(){
 		suma=suma+i;
 	}
 	system("cls");
-	
+
 	cout<<"\nLA SUMA FINAL ES : "<<suma;
-	
+
 	return 0;
 }
