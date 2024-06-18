@@ -7,14 +7,14 @@ using namespace std;
 
 int main(){
 	int gast,suma=0;
-	char op;
+	string op;
 
-	while (op !='n'){
+	while (op !="NO"){
 	cout<<"ingrese el gasto: "; cin>>gast;
 	suma=suma+gast;
-    cout<<"Ingrese 's' si quiere continuar, sino 'n' para terminar:\n ";cin>>op;
+    cout<<"Ingrese 'SI' si quiere continuar, sino 'NO' para terminar:\n ";cin>>op;
 }
-	cout<<"la suma es: "<<suma;
+	cout<<"LA SUMA TOTAL DE LOS GASTOS REALIZADOS ES : "<<suma;
 
 	return 0;
 }
